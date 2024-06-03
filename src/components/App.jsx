@@ -9,7 +9,7 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route
-                    path="//vite-react-eslint-starter-template"
+                    path="/vite-react-eslint-starter-template"
                     element={
                         <Navigate to="/vite-react-eslint-starter-template/home" />
                     }
