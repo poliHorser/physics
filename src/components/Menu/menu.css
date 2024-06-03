@@ -1,0 +1,32 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(32, 32, 32, 0.627);
+    padding: 20px;
+    width: 100%;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.element_nav {
+    text-decoration: none;
+    color: rgb(191, 189, 189);}
+
+.active{
+    color: white;
+}
+
+.element_p {
+    font-size: 20px;
+}

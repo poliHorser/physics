@@ -1,0 +1,52 @@
+.start_div{
+    max-height: 600px;
+    margin-top: 0;
+}
+
+
+.img-div {
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.img-home {
+    width: 200px;
+    height: 200px;
+   
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.p_div{
+    display: flex;
+    flex-direction: column;
+}
+
+.start_title{
+    padding-top: 80px;
+    color: rgb(226, 225, 225);
+    max-width: 600px;
+    margin-bottom: 5px;
+}
+.start_p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.start_p span{
+/* color: white; */
+    font-style: italic;
+}

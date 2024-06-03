@@ -1,0 +1,39 @@
+.project_div {
+    color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 120px;
+    left: 330px;
+    max-height: 80vh;
+    display: flex;
+    /* lub inna wartość w zależności od wymagań */
+    overflow-y: auto;
+}
+
+.project_ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: inherit;
+    /* Dostosowanie do wysokości rodzica */
+    overflow-y: auto;
+}
+
+.project_div h3 {
+    justify-content: center;
+    font-size: 30px;
+    padding-left: 100px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+p span {
+    font-style: italic;
+}
+.photodiv{
+    display: flex;
+    flex-direction: column;
+}
+.photoul{
+    list-style: none;
+}
