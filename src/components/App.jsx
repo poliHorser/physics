@@ -5,30 +5,14 @@ import './App.css';
 import { MaterialPage } from 'pages/Materials/MaterialPage';
 
 function App() {
-    return (
-       
-            <Routes>
-                <Route
-                    path="index"
-                    element={
-                        <Navigate to="/vite-react-eslint-starter-template/home" />
-                    }
-                />
-                <Route
-                    path="/vite-react-eslint-starter-template/home"
-                    element={<HomePage />}
-                />
-                <Route
-                    path="/vite-react-eslint-starter-template/project"
-                    element={<Project />}
-                />
-                <Route
-                    path="/vite-react-eslint-starter-template/materials"
-                    element={<MaterialPage />}
-                />
-            </Routes>
-       
-    );
+  return (
+    <Routes>
+      <Route path="/" element={<Navigate to="/home" />} />
+      <Route path="/home" element={<HomePage />} />
+      <Route path="/project" element={<Project />} />
+      <Route path="/materials" element={<MaterialPage />} />
+    </Routes>
+  );
 }
 
 export default App;

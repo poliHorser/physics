@@ -5,11 +5,9 @@ import App from 'components/App';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        <BrowserRouter
-            // basename="/vite-react-eslint-starter-template"
-        >
-            <App />
-        </BrowserRouter>
-    </React.StrictMode>
+  <React.StrictMode>
+    <BrowserRouter basename="/vite-react-eslint-starter-template">
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );

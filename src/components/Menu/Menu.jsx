@@ -7,7 +7,7 @@ export const Menu = () => {
             <ul className="nav-ul">
                 <li className="element_li">
                     <NavLink
-                        to="/vite-react-eslint-starter-template/home"
+                        to="/home"
                         className="element_nav"
                     >
                         <p className="element_p">Домашня сторінка</p>
@@ -15,7 +15,7 @@ export const Menu = () => {
                 </li>
                 <li className="element_li">
                     <NavLink
-                        to="/vite-react-eslint-starter-template/project"
+                        to="/project"
                         className="element_nav"
                     >
                         <p className="element_p">Проєкт</p>
@@ -23,7 +23,7 @@ export const Menu = () => {
                 </li>
                 <li className="element_li">
                     <NavLink
-                        to="/vite-react-eslint-starter-template/materials"
+                        to="/materials"
                         className="element_nav"
                     >
                         <p className="element_p">Джерела</p>
