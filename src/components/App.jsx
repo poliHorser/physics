@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import { HomePage } from 'pages/HomePage/HomePage';
 import { Project } from './Project/Project';
 import './App.css';
@@ -6,10 +6,10 @@ import { MaterialPage } from 'pages/Materials/MaterialPage';
 
 function App() {
     return (
-        <BrowserRouter>
+       
             <Routes>
                 <Route
-                    path="/vite-react-eslint-starter-template"
+                    path="/"
                     element={
                         <Navigate to="/vite-react-eslint-starter-template/home" />
                     }
@@ -27,7 +27,7 @@ function App() {
                     element={<MaterialPage />}
                 />
             </Routes>
-        </BrowserRouter>
+       
     );
 }
 
